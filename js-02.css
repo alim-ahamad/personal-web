@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 62.5%;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    margin-bottom: 7rem;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #1d1c1c;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: crimson;
+    border-radius: 5rem;
+}
+:root{
+    --color:#fff;
+}
+
+.content{
+    text-align: center;
+    
+}
+.content .heading{
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    margin: 5rem 2rem;
+}
+.content .heading span{
+    font-size: 4rem;
+}
+.box{
+    position: fixed;
+    border: 0.3rem solid whitesmoke;
+    box-shadow: 0.1rem 0.1rem 1rem snow;
+    width: 40%;
+    background-color: var(--color);
+    display: grid;
+    place-content: center;
+    margin-left: 30%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 5rem;
+}
+
+.colors{
+    margin-top: 40rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.btn{
+    font-size: 2rem;
+    color: #fff;
+    background-color: crimson;
+    border-bottom: 0.15rem solid cyan;
+    font-weight: lighter;
+    padding: 0.5rem 1rem;
+}
+.btn:hover {
+    color: #000;
+    background-color: whitesmoke; 
+    border: 0.15rem solid crimson;   
+    font-weight: bold;
+}
+.inp{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3.15rem;
+}
+
+@media(max-width:480px) {
+    html {
+        font-size: 50%;
+    }
+    .box{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .colors{
+    margin-top: 22rem;
+    }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Blabr.jpg" type="image/x-icon" >
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html"> <i class="fa fa-home"></i><span>Home</span> </a>
+        <a href="about.html"> <i class="fa fa-user"></i><span>About</span> </a>
+        <a href="portfolio.html"> <i class="fa fa-briefcase"></i><span>Portfolio</span> </a>
+        <a href="blogs.html"> <i class="fa fa-rss"></i><span>Blogs</span> </a>
+        <a href="contact.html"> <i class="fa fa-address-book"></i><span>Contact</span> </a>
+    </nav>
+    <!-- Navbar section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact">
+        <h1 class="headings"> Contact <span> Me </span></h1>
+
+        <div class="rows">
+
+            <div class="info-containers">
+
+                <h1> Get In Touch</h1>
+
+                <p>
+                    This seemingly impersonal contact form will deliver your message personally into my inbox. I usually
+                    reply within 72 hours. <br>
+                    Not a fan of contact forms? feel free to send me an email. I'll tell you my email address right after you read the following paragraph.<br><br>
+                    <strong style="color: rgb(219, 212, 212);">Before you reach out please keep in mind:</strong><br>
+                    • I don't accept any guest posts for this website.<br>
+                    • I am not interested in marketing.<br><br>
+                    .........and I will delete any messages related to the above without replying<br>
+                    Cool? OK, then feel free to send your message to me.
+                </p>
+
+                <div class="box-containers">
+
+                    <div class="boxs">
+                        <i class="fa fa-map"></i>
+                        <div class="info">
+                            <h3>Address : </h3>
+                            <p> Bareilly, India - 243005 </p>
+                        </div>
+                    </div>
+
+                    <div class="boxs">
+                        <i class="fa fa-envelope"></i>
+                        <div class="info">
+                            <h3>E-mail : </h3>
+                            <p> <span style="text-transform: lowercase;"> ahamadalim65@gmail.com </span></p>
+                        </div>
+                    </div>
+
+                    <div class="boxs">
+                        <i class="fa fa-phone"></i>
+                        <div class="info">
+                            <h3>Number : </h3>
+                            <p> 9410069397 </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="share">
+                    <a href="https://www.instagram.com/alim_ahamad_/?utm_medium=copy_link" class="fa fa-instagram" id="open-link1" target="_blank"></a>
+                    <a href="https://wa.me/9410069397" class="fa fa-whatsapp" id="open-link2"></a>
+                    <a href="#" class="fa fa-facebook-f"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+
+            </div>
+
+            <form action="contact.php" method="POST">
+
+                <div class="inputbox">
+                    <input type="text" placeholder="Your Name" name="name" required>
+                    <input type="number" placeholder="Your Number" name="number">
+                </div>
+
+                <div class="inputbox">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Your Subject" name="subject">
+                </div>
+
+                <textarea placeholder="Your Message" cols="30" rows="10" class="textarea" required name="message"></textarea>
+
+                <input type="submit" value="Send Message" class="btn" id="btnn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+</body>
+
+</html>
